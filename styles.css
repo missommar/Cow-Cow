@@ -134,8 +134,8 @@ h2 .highlight {
 }
 @font-face {
   font-family: 'CustomFont';
-  src: url('BNPepper-1.otf') format('opentype'),
-       url('BNScoutsHand-1.otf') format('opentype');
+  src: url('bnp.woff2') format('woff2'),
+	  url('bnp.woff2') format('woff');
   font-weight: normal; /* You can define weights if needed */
   font-style: normal;  /* Specify italic if the font supports it */
 }
