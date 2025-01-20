@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cow Cow</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!-- Fullwidth Video Section -->
+<section class="video-background">
+  <video autoplay loop muted playsinline class="background-video">
+    <source src="cowcowBG.mov" type="video/mp4">
+    Your browser does not support the video tag. </video>
+  <div class="title">
+    <h1>Cow Cow</h1>
+  </div>
+</section>
+
+<!-- Content Sections -->
+<section class="bgBlur">
+  <section class="content-section" id="label"> 
+  <div class="flex-container">
+    <div class="flex-inner">
+      <section class="sh">
+        <h2> <span class="highlight">•</span> label</h2>
+        <img src="abbg.jpg" alt="Label" class="section-image">
+        <!--<p> Amanda Bergman has touched people around the world with one of the country's warmest and most distinctive voices for over a decade. What began under the mysterious pseudonyms Hajen and Idiot Wind later culminated as the frontwoman of the supergroup and success story Amason and her own first solo album 'Docks'. </p>
+        <p>Since her debut in 2016, Amanda has managed to buy a farm in Dalarna, release three albums with Amason, win awards, tour, start the concert business "Rockbonden" and record an SVT documentary about life and the farm. The last eight years have also been marked by new and old life, mental illness and the road back, and eternal pondering over life's big questions. </p>-->
+      </section>
+    </div>
+    <div class="flex-inner">
+      <section class="sh">
+       <h2><span class="highlight">•</span> farm</h2>
+        <img src="far.jpg" alt="Farm" class="section-image">
+        <!-- <p> Taking care of a piece of land is incredibly meaningful and important work. We believe that a shift to regenerative principles in agriculture is a key to a reasonable future for our survivors. </p>
+        <p> Biodiversity in the form of animal and plant species, rich microlife, closed nutrient cycles and pasture-based animal husbandry is the basis of how we strive to manage our farm and land. </p>-->
+      </section>
+    </div>
+  </div>
+  <footer> <a href="https://www.missommar.com/"> cc missommar.com </a> </footer>
+</section>
+	</section>
+</body>
+</html>
