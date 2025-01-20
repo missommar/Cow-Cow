@@ -137,6 +137,6 @@ h2 .highlight {
   font-family: 'CustomFont';
   src: url('bnp.woff2') format('woff2'),
 	  url('bnp.woff2') format('woff');
-  font-weight: normal; /* You can define weights if needed */
-  font-style: normal;  /* Specify italic if the font supports it */
+  font-weight: 200; /* You can define weights if needed */
+  font-style: lighter;  /* Specify italic if the font supports it */
 }
