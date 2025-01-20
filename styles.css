@@ -7,7 +7,7 @@
   box-sizing: border-box;
 }
 h1 {
- font-family: 'CustomFont', serif;
+font-family: 'CustomFont', serif;
 	font-weight: 100;
 }
 h2 {
@@ -36,7 +36,7 @@ footer a {
   text-decoration: none;
 }
 #label {
-  margin-top: 80vh;
+  margin-top: 86vh;
   padding: 0.25vh;
 }
 #farm {
@@ -113,8 +113,8 @@ h2 .highlight {
   color: rgba(0, 0, 0, 0.8)
 }
 .bgBlur {
-  background: linear-gradient(0deg, rgba(200,200,200,60%) 0%, rgba(230,230,230,0) 100%);
-  backdrop-filter: blur(40px);
+  background: linear-gradient(0deg, rgba(200,200,200,80%) 0%, rgba(230,230,230,30%) 100%);
+  backdrop-filter: blur(25px);
 }
 .flex-container {
   margin: 0.5em 1em 1em 1em;
@@ -138,7 +138,6 @@ h2 .highlight {
   src: url('bnp.woff2') format('woff2'),
 	  url('bnp.woff2') format('woff');
   font-weight: 200; /* You can define weights if needed */
-  font-style: lighter;  /* Specify italic if the font supports it */
 }
 
 @supports (-webkit-touch-callout: none) {
