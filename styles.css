@@ -140,3 +140,10 @@ h2 .highlight {
   font-weight: 200; /* You can define weights if needed */
   font-style: lighter;  /* Specify italic if the font supports it */
 }
+
+@supports (-webkit-touch-callout: none) {
+  /* Safari-specific text-shadow adjustments */
+  h1 {
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  }
+}
