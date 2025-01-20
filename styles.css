@@ -113,7 +113,7 @@ h2 .highlight {
 }
 .bgBlur {
   background: linear-gradient(0deg, rgba(200,200,200,60%) 0%, rgba(230,230,230,0) 100%);
-  backdrop-filter: blur(15px);
+  backdrop-filter: blur(40px);
 }
 .flex-container {
   margin: 0.5em 1em 1em 1em;
