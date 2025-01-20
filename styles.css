@@ -7,8 +7,7 @@
   box-sizing: border-box;
 }
 h1 {
-  font-family: "BN Pepper", "BN Scouts Hand", "Avenir Medium", "Avenir Next Medium", "Config Medium", "Config Text";
-  font-weight: 100;
+ font-family: 'CustomFont', serif;
 }
 h2 {
   font-family: "Avenir Medium", "Avenir Next Medium", "Config Medium", "Config Text";
@@ -132,4 +131,11 @@ h2 .highlight {
     flex-direction: row;
 	  gap:2rem;
   }
+}
+@font-face {
+  font-family: 'CustomFont';
+  src: url('BNPepper-1.otf') format('opentype'),
+       url('BNScoutsHand-1.otf') format('opentype');
+  font-weight: normal; /* You can define weights if needed */
+  font-style: normal;  /* Specify italic if the font supports it */
 }
