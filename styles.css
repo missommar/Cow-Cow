@@ -142,10 +142,6 @@ h2 .highlight {
   flex: 1;
 }
 
-.text-content .page-links{
-	padding-top: 5vw;
-}
-
 
 /*** Hide Image and Show Text when checkbox is checked */
 
@@ -202,6 +198,9 @@ h2 .highlight {
 .toggle-checkbox:checked + .content .section-title {
 	color: black;
 
+}
+input[type="checkbox"]:checked + .text-content {
+    display: block; /* Show text when checkbox is toggled */
 }
 
 
