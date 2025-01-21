@@ -194,6 +194,7 @@ h2 .highlight {
 .toggle-checkbox:checked + .content .section-image {
 	opacity: 4%;
 	filter: blur(1rem);
+	position:relative;
 }
 
 .toggle-checkbox:checked + .content .text-content {
