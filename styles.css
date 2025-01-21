@@ -229,10 +229,13 @@ h2 .highlight {
     flex-direction: row;
     gap: 1rem;
   }
-	#label {
+#label {
   margin-top: 94vh;
 
 }
+.text-content {
+    font-size: 1.2rem; /* Larger font size for tablets or desktops */
+  }
 }
 @font-face {
   font-family: 'CustomFont';
