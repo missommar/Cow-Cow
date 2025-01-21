@@ -209,6 +209,7 @@ h2 .highlight {
 .toggle-checkbox:checked ~ .content .section-image {
   opacity: 0.1;
   filter: blur(10px);
+	height:10px;
 }
 .toggle-checkbox:checked ~ .content {
   height: auto; /* Allows full expansion on toggle */
