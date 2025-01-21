@@ -141,6 +141,8 @@ h2 .highlight {
   display: flex;
 	flex-grow: 1;
   flex: 1;
+	flex-direction: column;
+	width: 100%;
 }
 
 .content {
@@ -148,7 +150,8 @@ h2 .highlight {
   display: block;
   width: 100%;
   padding: 0px;
-  transition: all 0.5s ease, opacity 0.5s ease;
+   transition: height 0.5s ease, opacity 0.5s ease;
+  -webkit-transition: height 0.5s ease, opacity 0.5s ease;
   overflow: scroll; /* Ensures content doesn’t overflow */
 }
 
@@ -186,6 +189,7 @@ h2 .highlight {
   max-height: 0;
   opacity: 0;
   overflow: scroll;
+	 -webkit-display: block;
   transition: all 0.5s ease, opacity 0.5s ease;
 }
 
@@ -206,13 +210,14 @@ h2 .highlight {
 .toggle-checkbox:checked ~ .content .section-image {
   opacity: 0.1;
   filter: blur(10px);
-	max-height: 10px;
+}
+.toggle-checkbox:checked ~ .content {
+  height: auto; /* Allows full expansion on toggle */
 }
 
 .toggle-checkbox:checked ~ .content .text-content {
-   display: block;
-  max-height: 1000px; /* Arbitrary high value to allow expansion */
   opacity: 1;
+	max-height: 1000px;
 }
 
 
