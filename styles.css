@@ -107,9 +107,9 @@ h2 .highlight {
 }
 .section-image {
 	width: 100%;
-  object-fit: contain;
-  display: block;
-  transition: all 0.3s ease-in-out;
+  	object-fit: contain;
+  	display: block;
+  	transition: all 0.3s ease-in-out;
 	/*
   object-fit: cover;
   width: 100%;
@@ -136,9 +136,9 @@ h2 .highlight {
   gap: 1rem;
 }
 .flex-inner {
-  display: flex;
+  	display: flex;
 	flex-grow: 1;
-  flex: 1;
+	flex: 1;
 	flex-direction: column;
 	width: 100%;
 }
@@ -161,7 +161,7 @@ h2 .highlight {
 
 /* Hide checkbox */
 .toggle-checkbox {
-	position: absolute;
+position: absolute;
   opacity: 0;
   display: none;
 }
@@ -176,25 +176,25 @@ h2 .highlight {
 
 /* Hidden text content by default */
 .text-content {
-  display: none;
-  font-size: 1rem;
-  line-height: 1.5;
-  color: rgba(0, 0, 0, 0.7);
-  padding: 20px;
-  position: relative;
-  top: 5%;
-  z-index: 2;
-  max-height: 0;
-  opacity: 0;
-  overflow: scroll;
-	 -webkit-display: block;
-  transition: all 0.5s ease, opacity 0.5s ease;
+  	display: none;
+  	font-size: 1rem;
+  	line-height: 1.5;
+  	color: rgba(0, 0, 0, 0.7);
+  	padding: 20px;
+  	position: relative;
+  	top: 5%;
+  	z-index: 2;
+  	max-height: 0;
+  	opacity: 0;
+  	overflow: scroll;
+	-webkit-display: block;
+  	transition: all 0.5s ease, opacity 0.5s ease;
 }
 
 .toggle-checkbox:checked + .content .section-image {
 	opacity: 4%;
 	filter: blur(1rem);
-	position:relative;
+	position: relative;
 }
 
 .toggle-checkbox:checked + .content .text-content {
@@ -207,16 +207,16 @@ h2 .highlight {
 
 }
 .toggle-checkbox:checked ~ .content .section-image {
-  opacity: 0.1;
-  filter: blur(10px);
-	height:10px;
+  	opacity: 0.1;
+  	filter: blur(10px);
+	height: 10px;
 }
 .toggle-checkbox:checked ~ .content {
-  height: auto; /* Allows full expansion on toggle */
+  	height: auto; /* Allows full expansion on toggle */
 }
 
 .toggle-checkbox:checked ~ .content .text-content {
-  opacity: 1;
+  	opacity: 1;
 	max-height: 1000px;
 }
 
